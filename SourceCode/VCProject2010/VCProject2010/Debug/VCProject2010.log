@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017/7/3 14:12:56。
+项目“D:\FunCode\Games\Mo_Ta\SourceCode\VCProject2010\VCProject2010\VCProject2010.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在创建“Debug\VCProject2010.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  e:\VS2010\VC\bin\CL.exe /c /I../../Header /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Src\LessonX.cpp ..\..\Src\Main.cpp
+  Main.cpp
+d:\funcode\games\mo_ta\sourcecode\src\main.cpp(82): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\funcode\games\mo_ta\sourcecode\src\main.cpp(82): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+d:\funcode\games\mo_ta\sourcecode\src\main.cpp(82): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+  LessonX.cpp
+  正在生成代码...
+ResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\VCTemplate.res" VCTemplate.rc 
+Link:
+  e:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\Bin\Game.exe" /INCREMENTAL:NO /NOLOGO Winmm.lib ..\..\Src\CommonAPI_2010.Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"Debug\Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Bin\Game.lib" /MACHINE:X86 Debug\VCTemplate.res
+  Debug\LessonX.obj
+  Debug\Main.obj
+LessonX.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+CommonAPI_2010.Lib(CommonAPI.obj) : warning LNK4204: “D:\FunCode\Games\Mo_Ta\SourceCode\VCProject2010\VCProject2010\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+  VCProject2010.vcxproj -> D:\FunCode\Games\Mo_Ta\SourceCode\VCProject2010\VCProject2010\..\..\..\Bin\Game.exe
+CopyFilesToOutputDirectory:
+  正在将文件从“Debug\Game.pdb”复制到“..\..\..\Bin\Game.pdb”。
+FinalizeBuildStatus:
+  正在删除文件“Debug\VCProject2010.unsuccessfulbuild”。
+  正在对“Debug\VCProject2010.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\FunCode\Games\Mo_Ta\SourceCode\VCProject2010\VCProject2010\VCProject2010.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.18
