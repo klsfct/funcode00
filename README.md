@@ -7,5 +7,5 @@ git clone https://github.com/HapHac/mota_by_funcode.git
 双击bin/Game.exe
 * 玩法
 鼠标：左键切换到上一层场景，右键切换到下一层场景
-<W><A><S><D>使角色向上、左、下、右移动
+\<W\>\<A\>\<S\>\<D\>使角色向上、左、下、右移动
 
